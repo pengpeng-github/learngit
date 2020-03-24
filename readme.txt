@@ -20,4 +20,4 @@ Git的版本库里存了很多东西，其中最重要的就是称为stage（或
 Git is a distributed version control system.
 Git is free software distributed under the GPL.
 Git has a mutable index called stage.
-Git tracks changes.
+Git tracks changes of files.
