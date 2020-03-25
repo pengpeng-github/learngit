@@ -35,6 +35,10 @@ git checkout -- 其实是用版本库里的版本替换工作区的版本，无�
 解决码云未配置公钥问题
 https://www.cnblogs.com/janve/p/10946630.html
 
+从远程库克隆
+要克隆一个仓库，首先必须知道仓库的地址，然后使用git clone命令克隆。
+Git支持多种协议，包括https，但ssh协议速度最快。
+
 Git is a distributed version control system.
 Git is free software distributed under the GPL.
 Git has a mutable index called stage.
