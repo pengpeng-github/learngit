@@ -52,6 +52,10 @@ Git支持多种协议，包括https，但ssh协议速度最快。
 解决冲突就是把Git合并失败的文件手动编辑为我们希望的内容，再提交。
 用git log --graph命令可以看到分支合并图
 
+分支管理策略
+合并分支 git merge --no-ff -m "merge with no-ff" dev 
+查看分支历史 git log --graph --pretty=oneline --abbrev-commit
+合并分支时，加上--no-ff参数就可以用普通模式合并，合并后的历史有分支，能看出来曾经做过合并，而fast forward合并就看不出来曾经做过合并
 
 Git is a distributed version control system.
 Git is free software distributed under the GPL.
