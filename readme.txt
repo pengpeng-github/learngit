@@ -83,6 +83,12 @@ rebase的目的是使得我们在查看历史提交的变化时更容易，因�
 命令git tag -a <tagname> -m "blablabla..."可以指定标签信息；
 命令git tag可以查看所有标签。
 
+操作标签
+命令git push origin <tagname>可以推送一个本地标签；
+命令git push origin --tags可以推送全部未推送过的本地标签；
+命令git tag -d <tagname>可以删除一个本地标签；
+命令git push origin :refs/tags/<tagname>可以删除一个远程标签。
+
 Git is a distributed version control system.
 Git is a free software distributed under the GPL.
 Git has a mutable index called stage.
